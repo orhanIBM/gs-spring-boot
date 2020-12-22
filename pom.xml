@@ -55,4 +55,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>artifactory-artifactory-0-snapshots</name>
+			<url>https://artifactory-tools.cp4apps-wdc04-w4d7es-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
